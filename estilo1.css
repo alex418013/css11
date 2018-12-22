@@ -18,6 +18,7 @@ p {
   font-size: 1.5rem;
   font-style: oblique;
   color: hsl(187, 100%, 20%);
+  border: hsl(187, 100%, 20%) 5px dashed;
   float: left;
   width: 16rem;
   height: 16rem;

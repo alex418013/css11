@@ -9,29 +9,32 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   color: hsl(187, 100%, 20%);
-  font-size: 4rem;
-  letter-spacing: 2rem;
+  font-size: 5rem;
+  letter-spacing: 2.5rem;
  
 }
 
 p {
-  font-size: 1.5rem;
+  background-color: hsl(187, 100%, 40%);
+  font-size: 2rem;
   font-style: oblique;
   color: hsl(187, 100%, 20%);
+
   border: hsl(187, 100%, 20%) 5px dashed;
-  float: left;
   width: 16rem;
   height: 16rem;
-  overflow: auto;
   margin: 10px;
   padding: 10px;
-  background-color: hsl(187, 100%, 40%);
+
+  float: left;  
+  overflow: auto;
  
   }
 
 p::first-letter {
-  float: left;
   color: hsl(187, 100%, 20%);
   font-size: 4rem;
   line-height: 3rem; 
+  float: left;
+ 
 }
